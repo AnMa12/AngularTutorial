@@ -11,11 +11,11 @@ export class HeroesComponent implements OnInit {
 
   constructor(private heroService: HeroService) { }
 
-  //hero property for a hero named "Windstorm"
+  /*hero property for a hero named "Windstorm"
   hero: Hero = {
     id: 1,
     name: 'Windstorm'
-  };
+  };*/
 
   //heroes property to the class that exposes these heroes for binding
   heroes: Hero[];
