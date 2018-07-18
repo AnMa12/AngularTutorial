@@ -20,11 +20,11 @@ export class HeroesComponent implements OnInit {
   //heroes property to the class that exposes these heroes for binding
   heroes: Hero[];
 
-  selectedHero: Hero;
+  /*selectedHero: Hero;
 
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
-  }
+  }*/
 
   ngOnInit() {
     this.getHeroes();
